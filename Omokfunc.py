@@ -1,6 +1,6 @@
 import numpy as np
 
-def checkwin(int[] a):
+def checkwin(int[] a, flag):
     for i in range(a):
         for j in range(a):
             if a(i,j) == 1:
@@ -21,8 +21,24 @@ def checkwin(int[] a):
                         count = 0
 
                 # left-up diagonal check
-                for k in range (i-4, i+5):
-                    
+                for k in range(-4, 5):
+                    if a(i+k,j+k) == 1:
+                        count += 1
+                    else:
+                        count = 0
+                
+                # right-up diagonal check
+                for k in range(4, -4):
+                    if a(i-k, j+k) == 1:
+                        count += 1
+                    else:
+                        count = 0
+                
+                # check count = 5
+                if count == 5:
+                    return flag
+
+
 
 
                     
