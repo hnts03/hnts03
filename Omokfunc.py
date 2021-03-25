@@ -14,14 +14,15 @@ def checkwin(int[] a):
                         count = 0
 
                 # horizontal check
-                for k in range(i-4,i+4):
+                for k in range(i-4,i+5):
                     if a(i,k) == 1:
                         count += 1
                     else:
                         count = 0
 
                 # left-up diagonal check
-                for k in range ()
+                for k in range (i-4, i+5):
+                    
 
 
                     
