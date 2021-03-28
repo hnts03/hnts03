@@ -41,10 +41,6 @@ def checkwin(int[] a, flag):
 
 
 
-                    
-
-    return a
-
 
 
 def board(int a):
@@ -54,6 +50,19 @@ def board(int a):
 
 
 def turn():
+
+
+def setblock(int turn):
+    # for black, stone = 1
+    if turn == 0:
+        input(int a, int b)
+        board_array(a,b) = 1
+    
+    # for white, stone =2
+    if turn == 1:
+        input(int a, int b)
+        board_array(int a, int ,b)
+
 
 
 
