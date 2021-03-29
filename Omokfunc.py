@@ -40,7 +40,9 @@ def checkwin(int[] a, flag):
 
 
 
-
+def gamestart():
+    input(int a)
+    board(a)
 
 
 def board(int a):
