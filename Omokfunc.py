@@ -43,6 +43,11 @@ def checkwin(int[] a, flag):
 def gamestart():
     input(int a)
     board(a)
+    start_position : np.random.rand()
+    if start_position <= 0.5:
+        turn(1)
+    else:
+        turn(0)
 
 
 def board(int a):
